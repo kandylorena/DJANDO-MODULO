@@ -27,6 +27,12 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+CSRF_TRUSTED_ORIGINS = [
+
+    'https://turbo-guide-9vgq5jr66xv3x9qv-8000.app.github.dev/',
+    'https://localhost:8000',
+]
+
 
 # Application definition
 
