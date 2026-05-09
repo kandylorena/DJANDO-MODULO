@@ -8,8 +8,10 @@
 <body>
     <p>html template</p>
 
-    {% for producto in productos %}
-        {{producto.nombre}}
+    {% for cerveza in cervezas %}
+        {{cerveza.nombre}}
+        {{cerveza.tipo}}
+        {{cerveza.grados}}
     {% endfor %}
     
 </body>
